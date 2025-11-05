@@ -20,7 +20,6 @@ A linked list is used because it allows dynamic memory allocation, meaning new r
 The program is menu-driven and allows the user to:
 
 Add a new student
-
 Display all students
 
 Search a student by roll number
@@ -32,8 +31,8 @@ Delete a student record
 This project demonstrates the use of structures, pointers, dynamic memory allocation, and linked list operations.
 
 
-Objectives
 
+Objectives
 To manage student data efficiently using linked lists.
 
 To understand and apply dynamic memory allocation in C.
@@ -45,8 +44,8 @@ To develop a simple menu-driven application.
 To provide a practical example of using data structures in real-world applications.
 
 
-Algorithms
 
+Algorithms
 Algorithm for Adding a Student
 
 Create a new node.
@@ -57,8 +56,9 @@ Point the new node to the current head.
 
 Make the new node the new head.
 
-Algorithm for Displaying Students
 
+
+Algorithm for Displaying Students
 Start from the head node.
 
 Print each student's details.
@@ -66,8 +66,8 @@ Print each student's details.
 Move to the next node until the end.
 
 
-Algorithm for Searching a Student
 
+Algorithm for Searching a Student
 Input the roll number to search.
 
 Traverse the list while comparing roll numbers.
@@ -75,6 +75,7 @@ Traverse the list while comparing roll numbers.
 If a match is found, display the details.
 
 If not found, show a message.
+
 
 
 Algorithm for Deleting a Student
@@ -91,15 +92,22 @@ If not found, show a message.
 /* P3.1 Program of single linked list of non integer type node*/
 
 #include<stdio.h>
+
 #include<conio.h>
+
 #include<stdlib.h>
+
 #include<string.h>
 typedef struct student
+
 {
+
     int roll_no;
+    
     char name[100];
     float marks;
     struct student *next;
+
 }node;
 node *create_list();
 void display(node *);
