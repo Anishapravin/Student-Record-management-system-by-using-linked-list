@@ -1,9 +1,14 @@
 # Student-Record-management-system-by-using-linked-list
 Name : Anisha Pravin
+
 Roll no : 1/24/SET/BCS/093
+
 Section : 3CSB
+
 subject : DSA
+
 Faculty member : Dr Lenin Narengban
+
 Department : Computer Science Engineering and Technology
 
 
@@ -13,7 +18,9 @@ The Student Record Management System using Linked List is a simple console-based
 A linked list is used because it allows dynamic memory allocation, meaning new records can be added or removed easily during runtime. Each node contains the student details and a pointer to the next node.
 
 The program is menu-driven and allows the user to:
+
 Add a new student
+
 Display all students
 Search a student by roll number
 Update student details
