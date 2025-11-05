@@ -439,3 +439,16 @@ node *reverse(node *start)
     start=prev;
     return start;
 }/*End of reverse()*/
+
+
+#OUTPUT
+<img width="563" height="387" alt="Image" src="https://github.com/user-attachments/assets/012c8aff-bdba-43da-be3c-73fa80e21028" />
+
+<img width="739" height="334" alt="Image" src="https://github.com/user-attachments/assets/8baa5140-69eb-4032-8b32-3ceb529c9ee3" />
+
+<img width="669" height="335" alt="Image" src="https://github.com/user-attachments/assets/100a1c6c-ac4d-4f31-851c-5a9dfaad5502" />
+
+<img width="733" height="211" alt="Image" src="https://github.com/user-attachments/assets/8d07a50b-9ada-4557-a8a8-cce75684b9ec" />
+
+<img width="671" height="384" alt="Image" src="https://github.com/user-attachments/assets/c48e5774-cc19-45f4-9b42-803ace21e902" />
+OUTPUT
