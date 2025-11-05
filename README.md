@@ -22,45 +22,74 @@ The program is menu-driven and allows the user to:
 Add a new student
 
 Display all students
+
 Search a student by roll number
+
 Update student details
+
 Delete a student record
+
 This project demonstrates the use of structures, pointers, dynamic memory allocation, and linked list operations.
 
+
 Objectives
+
 To manage student data efficiently using linked lists.
+
 To understand and apply dynamic memory allocation in C.
+
 To perform operations such as insertion, deletion, search, and update on a linked list.
+
 To develop a simple menu-driven application.
+
 To provide a practical example of using data structures in real-world applications.
 
+
 Algorithms
+
 Algorithm for Adding a Student
 
 Create a new node.
+
 Input student details.
+
 Point the new node to the current head.
+
 Make the new node the new head.
 
 Algorithm for Displaying Students
+
 Start from the head node.
+
 Print each student's details.
+
 Move to the next node until the end.
 
+
 Algorithm for Searching a Student
+
 Input the roll number to search.
+
 Traverse the list while comparing roll numbers.
+
 If a match is found, display the details.
+
 If not found, show a message.
 
+
 Algorithm for Deleting a Student
+
 Input roll number to delete.
+
 Traverse the list using two pointers: current and previous.
+
 If roll matches, adjust links and free memory.
+
 If not found, show a message.
 
 #CODE
 /* P3.1 Program of single linked list of non integer type node*/
+
 #include<stdio.h>
 #include<conio.h>
 #include<stdlib.h>
@@ -103,6 +132,7 @@ void main(){
         printf("10.Delete\n");
         printf("11.Reverse\n");
         printf("12.Quit\n\n");
+        
         
         printf("Enter your choice : ");
         scanf("%d",&choice);
@@ -449,13 +479,18 @@ node *reverse(node *start)
 
 
 #OUTPUT
+
 <img width="563" height="387" alt="Image" src="https://github.com/user-attachments/assets/012c8aff-bdba-43da-be3c-73fa80e21028" />
+
 
 <img width="739" height="334" alt="Image" src="https://github.com/user-attachments/assets/8baa5140-69eb-4032-8b32-3ceb529c9ee3" />
 
+
 <img width="669" height="335" alt="Image" src="https://github.com/user-attachments/assets/100a1c6c-ac4d-4f31-851c-5a9dfaad5502" />
 
+
 <img width="733" height="211" alt="Image" src="https://github.com/user-attachments/assets/8d07a50b-9ada-4557-a8a8-cce75684b9ec" />
+
 
 <img width="671" height="384" alt="Image" src="https://github.com/user-attachments/assets/c48e5774-cc19-45f4-9b42-803ace21e902" />
 OUTPUT
